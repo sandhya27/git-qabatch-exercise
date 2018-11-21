@@ -19,7 +19,7 @@ import selenium.utils.browser.LocalStorage;
 @Browser(skip = PHANTOMJS)
 public class DoSomeThingWithLocalStorageIT extends SeleniumTestWrapper {
 
-    StartPage startPage = PageFactory.initElements(getDriver(), StartPage.class);
+    StartPage startPage = PageFactory.initElements(getDriver(), StartPage.class);34
     LocalStorage localStorage = new LocalStorage(getDriver());
 
     @Before
