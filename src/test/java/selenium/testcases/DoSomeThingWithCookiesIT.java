@@ -23,7 +23,7 @@ public class DoSomeThingWithCookiesIT extends SeleniumTestWrapper {
         startPage.open();
     }
 
-    @Test
+    @Test; 
     public void checkSomeValueFromCertainCookie() {
         assertThat(cookies.getValueOfCookieNamed("logged_in"), is("no"));
     }
